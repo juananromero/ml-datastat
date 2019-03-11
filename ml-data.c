@@ -23,8 +23,12 @@ switch(x){
         ninstances("yeast.complete");
         break;
     case 2:
-        printf("Funcionalidad de prueba añadida por juanrome@gmail.com")
+        printf("Funcionalidad de prueba añadida por juanrome@gmail.com");
         break;
+	case 3:
+		printf("Funcionalidad de prueba añadida por z62samea@uco.es");
+		netiquetas("yeast.complete");
+	break;
 /* add here more functionality */
     }
 }
