@@ -9,6 +9,7 @@ def main():
         print("\nMenu:\n")
         print("0.- EXIT")
         print("1.- Number of instances, features and labels (Juan A. Romero)")
+        print("2.- Occurrences of the labels for al instances(F. Javier Peñas)")
 
         main_input = int(input())
 
@@ -19,7 +20,7 @@ def main():
             datafile=input("Introduce nombre de datafile: ")
             ninstances(datafile)
         elif main_input == 2:
-            print("add yours here")
+            print(occLabels)
 
 
 if __name__ == "__main__":
