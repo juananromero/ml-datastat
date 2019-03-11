@@ -27,6 +27,7 @@ switch(x){
         break;
 	case 3:
 		printf("Funcionalidad de prueba añadida por z62samea@uco.es");
+		netiquetas("yeast.complete");
 	break;
 /* add here more functionality */
     }
