@@ -11,6 +11,7 @@ while(flag==1)
 printf("Menu:\n");
 printf("0.- EXIT\n");
 printf("1.- Number of instances, features and labels (Juan A. Romero)\n");
+printf("2.- Mean of the values of each instance (Angel Murcia)\n");
 scanf("%d", &x);
 fflush(stdin);
 printf("\n\n");
@@ -23,7 +24,8 @@ switch(x){
         ninstances("yeast.complete");
         break;
     case 2:
-        printf("Funcionalidad de prueba añadida por juanrome@gmail.com")
+        printf("Ejecutando para dar la media numerica de todas las variables de cada instancia de Angel Murcia\n");
+        mifuncion("yeast.complete");
         break;
 /* add here more functionality */
     }
