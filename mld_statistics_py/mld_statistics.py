@@ -3,7 +3,7 @@
 def _cls_patterns(lines):
     labels = int(lines[2].strip().split(' ')[-1])
     data = lines[3:]
-    return list(map(lambda x: ''.join(x.strip().split(' ')[-6:]), data))
+    return list(map(lambda x: ''.join(x.strip().split(' ')[-labels:]), data))
 
 def _DL(lines):
     """
